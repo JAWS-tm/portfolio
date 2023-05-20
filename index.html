@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:url" content="https://jules-dempt.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfolio - Jules DEMPT" />
+    <meta property="og:description" content="Présentation de mes projets et de mes compétences" />
+    <meta property="og:image" content="https://jules-dempt.com/favicon.ico" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- TODO : make icon theme responsive (dark / white) -->
+
+    <title>Portfolio - DEMPT Jules</title>
+    <meta
+      name="description"
+      content="Étudiant en Bachelor 'Solutions Numériques Connectées' à l'ESEO. Je propose mes compétences en développement. Présentations de mes projets sur mon portfolio"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/1e6afd82c6.js" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SH3SSDC6LQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SH3SSDC6LQ");
+    </script>
+    <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div id="logo">
+          <a href="#">
+            <img src="assets/logo.png" alt="logo" />
+          </a>
+        </div>
+        <div id="links">
+          <ul>
+            <li>
+              <a href="javascript:void(0)" class="phone-navbar">
+                <i class="fas fa-bars"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#about">À propos</a>
+            </li>
+            <li>
+              <a href="#skills">Compétences</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="landing-page">
+        <div id="memojis-slideshow">
+          <div class="gradient"></div>
+          <div class="memoji-container">
+            <img id="memojis-img" src="assets/memoji_2.png" alt="memoji" />
+          </div>
+        </div>
+
+        <h2>Bonjour !</h2>
+        <h1>Je suis <span class="gradient-text">Étudiant</span></h1>
+
+        <a
+          class="personnal-network tooltip-parent"
+          href="https://www.linkedin.com/in/jules-dempt-b3581b1b4/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin-in">
+            <span class="tooltip">LinkedIn</span>
+          </i>
+        </a>
+      </div>
+
+      <section id="about">
+        <h2 class="title">À propos</h2>
+
+        <div id="about-flex">
+          <div id="personal-infos">
+            <img src="assets/photo.jpg" alt="Personal picture" />
+            <div id="infos">
+              <h4>DEMPT Jules</h4>
+              <h4>19 ans</h4>
+            </div>
+          </div>
+          <div id="about-me">
+            <p>
+              Étudiant à l'ESEO en 2ème année de Bachelor « Solutions Numériques Connectées » en vue
+              de l'obtention d'un diplôme d'ingénieur.
+              <br /><br />
+              Je suis passionné par l'informatique depuis jeune, je me suis formé dès mes 12 ans et
+              de façon autodidacte à la programmation informatique. Depuis plus de 4 ans, je propose
+              mes compétences en développement pour la réalisations Back-End de sites et la
+              conception de scripts sur certains jeux.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="transparent" id="skills">
+        <h2 class="title">Compétences</h2>
+
+        <div id="skills-flex">
+          <section id="dev" class="dynamic slide-left">
+            <h3 class="title">Développement</h3>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 65%">
+                <div class="progress-fill">
+                  <i class="fab fa-html5 tooltip-parent">
+                    <span class="tooltip">HTML</span>
+                  </i>
+                  <i class="fab fa-css3-alt tooltip-parent">
+                    <span class="tooltip">CSS</span>
+                  </i>
+                  <i class="fab fa-js-square tooltip-parent">
+                    <span class="tooltip">JavaScript</span>
+                  </i>
+                </div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 90%">
+                <div class="progress-fill">
+                  <i class="fab fa-php tooltip-parent">
+                    <span class="tooltip">Php</span>
+                  </i>
+                  <i class="fab fa-node-js tooltip-parent">
+                    <span class="tooltip">Node.js</span>
+                  </i>
+                </div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 75%">
+                <div class="progress-fill">
+                  <i class="fab fa-java tooltip-parent">
+                    <span class="tooltip">JAVA</span>
+                  </i>
+                </div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 85%">
+                <div class="progress-fill">
+                  <i class="fab fa-cuttlefish tooltip-parent">
+                    <span class="tooltip">C</span>
+                  </i>
+                </div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 75%">
+                <div class="progress-fill">
+                  <i class="fab fa-python tooltip-parent">
+                    <span class="tooltip">Python</span>
+                  </i>
+                </div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 95%">
+                <div class="progress-fill">Lua</div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+          </section>
+
+          <section id="other" class="dynamic slide-right">
+            <h3 class="title">Autres</h3>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 85%">
+                <div class="progress-fill">Électronique Embarqué</div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 50%">
+                <div class="progress-fill">Scrum</div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 87%">
+                <div class="progress-fill">Voltaire (873pt)</div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 70%">
+                <div class="progress-fill">SQL / MySQL</div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 50%">
+                <div class="progress-fill">Photoshop</div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress: 65%">
+                <div class="progress-fill">Conception PCB</div>
+                <div class="progress-blur"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="transparent" id="portfolio">
+        <h2 class="title">Portfolio</h2>
+
+        <div id="projects-flex">
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">Maison Connectée</h3>
+                <img src="assets/projects/maison_connectee.jpg" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">Maison Connectée</h3>
+
+                <p>
+                  Ce projet est une maquette de Maison Connectée sur STM32 réalisée dans le cadre
+                  d'un projet d'Électronique Numérique. La conception de la maquette, du PCB ainsi
+                  que du software a entièrement été réalisée par nous.
+                </p>
+
+                <button
+                  class="more-infos play-video"
+                  data-video="https://www.youtube.com/embed/LTo29H8mDa4"
+                >
+                  Présentation <i class="fab fa-youtube"></i>
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">Bras robotisé</h3>
+                <img src="assets/projects/bras_robot.jpg" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">Bras robotisé</h3>
+
+                <p>
+                  Ce projet est une maquette de bras robotisé sur 3 axes réalisée dans le cadre d'un
+                  projet d'Électronique Numérique sur STM32. Il est contrôlé à l'aide d'une manette
+                  bluetooth.
+                </p>
+
+                <button
+                  class="more-infos play-video"
+                  data-video="https://www.youtube.com/embed/fmzSvL3dxfM"
+                >
+                  Présentation <i class="fab fa-youtube"></i>
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">Pear Market</h3>
+                <img src="assets/projects/pear-market.png" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">Pear Market</h3>
+
+                <p>
+                  Ce projet est un site de e-commerce réalisé en J2E (Jakarta) dans le cadre d'un
+                  projet scolaire. Je l'ai ensuite integré dans un docker pour être déployé sur un
+                  serveur.
+                </p>
+
+                <a class="more-infos" href="http://pear-market.jules-dempt.com" target="_blank"
+                  >Présentation</a
+                >
+              </div>
+            </div>
+          </section>
+
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">Jeu de dames</h3>
+                <img src="assets/projects/jeu_dames.jpg" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">Jeu de dames</h3>
+
+                <p>
+                  Jeu de dames réalisé en langage C à l'aide de la librairie SDL ainsi qu'une
+                  version dans l'invite de commande Windows. La version console inclue aussi le jeu
+                  de Mérelle.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">Interface d'administration</h3>
+                <img src="assets/projects/admin_menu.jpg" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">Interface d'administration</h3>
+
+                <p>
+                  Interface d'administration pour le jeu GMod. Elle permet de gérer les tickets
+                  d'administration ouvert par les joueurs de manière facile. Elle donne aussi accès
+                  à un historique de tous les tickets et du temps de service de chaque
+                  administrateur.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">HUD GMod</h3>
+                <img src="assets/projects/hud_gmod.jpg" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">HUD GMod</h3>
+
+                <p>
+                  HUD réalisé en GLua (Lua pour le jeu Garry's Mod). Il permet d'afficher les
+                  informations du joueur (vie, faim, etc).
+                </p>
+                <a
+                  class="more-infos"
+                  href="https://aide-serveur.fr/ressources/darkrp-flat-hud.1118/"
+                  target="_blank"
+                  >Présentation</a
+                >
+              </div>
+            </div>
+          </section>
+
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">Tablette GMod</h3>
+                <img src="assets/projects/tablet_gmod.jpg" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">Tablette GMod</h3>
+
+                <p>
+                  Tablette inspirée de l'IPad réalisé en GLua (Lua pour le jeu Garry's Mod). Elle
+                  permet de communiquer avec les autres joueurs, afficher des informations, prendre
+                  des notes et des photos.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="transparent project-card dynamic pop">
+            <div class="card-inner">
+              <div class="card-face card-face-front">
+                <h3 class="title">Site de vente</h3>
+                <img src="assets/projects/cam.jpg" alt="Projet" />
+              </div>
+              <div class="card-face card-face-back">
+                <div class="flip-btn">
+                  <i class="fas fa-reply"></i>
+                </div>
+                <h3 class="title">Site de vente</h3>
+
+                <p>
+                  Site de prise et de gestion de commandes avec une connexion via l'API Steam. Mise
+                  en forme d'une template et réalisation du Back-End en Php.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="separation"></div>
+      <div class="separation-blur"></div>
+
+      <div class="container">
+        <div>
+          <a href="mailto:contact@jules-dempt.com?subject=Contact"
+            ><h4>contact@jules-dempt.com</h4></a
+          >
+          <h4 class="light">French Developer</h4>
+        </div>
+
+        <!-- <div class="social-network">
+                <div class="social-network">
+                    <a href="https://twitter.com/groupe_eseo?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Suivre @groupe_eseo</a>
+                    
+                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FGroupeESEO%2F&width=156&layout=button_count&action=like&size=large&share=false&height=21&appId"  height="30" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div> -->
+      </div>
+    </footer>
+
+    <!-- Misc -->
+    <a class="go-top" href="#">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <div id="loader">
+      <div class="loader-left"></div>
+      <div class="loader-right"></div>
+    </div>
+
+    <div class="modal-container">
+      <div class="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="video-modal">
+        <iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+TODO :
+    ----- Couleur selection texte
+    - paralaxe fond 
+    - ---sliding icons
+    - ---spawn sections on first appear 
+    - --- icon
+    - ---- modal on click project ou  card qui se tourne
+    - close cross on cursor on play vidéo
+    - -- boutton remonter en haut de page
+    - seo
+-->
