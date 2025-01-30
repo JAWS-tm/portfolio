@@ -18,7 +18,7 @@ html {
 body {
   background-color: #151621;
 
-  font-family: BuenosAires;
+  font-family: Outfit;
   color: rgb(255, 255, 255);
 
   overflow-x: hidden !important;
@@ -50,12 +50,12 @@ img {
 
 h2 {
   font-size: 2.1rem;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 /************* Navigation bar *************/
@@ -410,7 +410,7 @@ section .title::after {
   width: fit-content;
   margin: 5px auto;
   font-size: 1.4em;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 /* Description */
@@ -419,7 +419,7 @@ section .title::after {
   padding: 0 10px;
   line-height: 1.5em;
   font-size: 1.2em;
-  font-weight: 100;
+  font-weight: 200;
   /* text-align: justify; */
 }
 /*****************************************/
@@ -529,7 +529,7 @@ section .title::after {
   color: #fff;
   background-color: rgba(53, 57, 100, 0.5);
   border-radius: 5px;
-  font-family: BuenosAires;
+  font-family: Outfit;
   font-size: 0.9em;
   text-align: center;
 
@@ -664,6 +664,7 @@ section .title::after {
 .card-face-back p {
   font-size: 1.3em;
   line-height: 1.3em;
+  font-weight: 300;
   /* max-height: 50%; */
   overflow: hidden;
   margin-bottom: 25px;
@@ -672,7 +673,7 @@ section .title::after {
 .card-face-back .more-infos {
   margin: auto;
   padding: 10px 20px;
-  font-family: BuenosAires;
+  font-family: Outfit;
   font-size: 1.5em;
   background: rgba(41, 43, 65, 0.5);
   border: none;
@@ -733,7 +734,7 @@ footer .separation-blur {
 footer h4,
 a {
   color: rgb(92, 95, 135);
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
